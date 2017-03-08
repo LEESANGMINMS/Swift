@@ -2,18 +2,40 @@
 
 import UIKit
 
-class calculator {
-    var number1:Int = 5
-    var number2:Int = 8
+//var str = "Hello, playground"
+
+class Calculator {
     
-    func describe() {
-        print(number1+number2)
-        print(number2-number1)
-        print(number1*number2)
-        print(number2/number1)
+    var first: Int
+    var second: Int
+    
+    init(first: Int, second: Int){
+        
+        self.first = first
+        self.second = second
+        
     }
+    
+    func add() -> Int {
+        return first + second
+    }
+    
+    func sub() -> Int {
+        return first - second
+    }
+    
+    func mul() -> Int {
+        return first * second
+    }
+    
+    func div() -> Int {
+        return first / second
+    }
+    
 }
 
-var task02 = calculator()
-task02.describe()
-
+let task02 = Calculator(first: 8, second: 5)
+task02.add()
+task02.sub()
+task02.mul()
+task02.div()
