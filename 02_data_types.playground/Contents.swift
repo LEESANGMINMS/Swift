@@ -19,7 +19,7 @@ var str2:String = "hello"
 var number2:Int = 2
 //var number3:Int = "playground"
 
-// 암시적 방법 보다는 명시적 방법이 좋지만
+// 암시적 방법 보다는 명시적 방법이 좋지만 큰 상관 없는듯
 
 // convert string to integer 문자 -> 정수 변환
 10

@@ -31,3 +31,17 @@ let number2 = 2
 "abc" + "def"
 
 var string = "It's your first time study for swift!"
+
+5.0 / 2.0
+
+string + "hello"
+
+//string + 5 문자와 숫자는 더할수 없다.
+
+10 % 3
+
+10 % 4
+
+
+
+

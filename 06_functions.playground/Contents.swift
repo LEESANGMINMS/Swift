@@ -42,4 +42,45 @@ func describe(name:String, age:Int, address:String, job:String, gender:String) {
 describe(name: name1, age: age1, address: address1, job:job1, gender:gender1)
 describe(name: name2, age: age2, address: address2, job:job2, gender:"she")
 
+// parameter & return (4 case)
+
+// parameter O & return O
+func greeting(name: String) -> String {
+    return "hello, \(name)"
+}
+let result = greeting(name:"marco")
+print(result)
+
+//parameter O & return X
+
+func greeting2(name: String) {
+    print ("hello, \(name)")
+}
+greeting2(name: "scott")
+
+
+
+//parameter X & return O
+
+func greeting3() -> String {
+    return "Hello, world!"
+}
+greeting3()
+print(greeting3())
+
+//parameter X & return x
+
+func greeting4() {
+    print("Hello world!")
+}
+greeting4()
+
+// parameter label
+
+func greeting5(name: String, gender: String) -> String {
+    return "hello, \(gender) is \(name)"
+}
+let result2 = greeting5(name: "marco", gender: "He")
+print(result2)
+
 
